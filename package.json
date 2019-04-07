@@ -1,0 +1,21 @@
+{
+  "name": "node-pdfcreator",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Allard van der Ouw <allard.van.der.ouw@oliver-it.nl>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nf start"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "foreman": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "handlebars": "^4.1.1",
+    "wkhtmltopdf": "^0.3.4"
+  }
+}
